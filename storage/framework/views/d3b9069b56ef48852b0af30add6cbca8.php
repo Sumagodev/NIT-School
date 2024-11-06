@@ -53,7 +53,7 @@
           <div class="row align-items-center">
             <!-- Left Side Image -->
             <div class="col-lg-4">
-              <img src="<?php echo e(('public/assets/images/more-for-parents3.png')); ?>" alt="Books Image" class="img-fluid left-image" />
+              <img src="<?php echo e(('public/assets/images/more-for-parents3.png')); ?>" alt="Books Image" class="left-image" />
             </div>
       
             <!-- Cards Section -->
@@ -69,7 +69,7 @@
       
               <div class="info-card text-center">
                 <div class="icon-wrapper">
-                  <i class="fa-solid fa-shirt"></i>
+                  <i class="bi bi-bus-front-fill"></i>
                 </div>
                 <h4>Uniform</h4>
                 <p>

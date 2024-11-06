@@ -3,24 +3,20 @@
 
 
 <!-- About Section -->
-<section class="about-section">
+
+<section class="">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="image-grid">
-                            <!-- Large image on the left -->
-                            <img src="{{('public/assets/images/about1.png')}}" class="large-img"
-                                alt="School Image 1">
-                            <!-- Two smaller images stacked on the right -->
-                            <img src="{{('public/assets/images/about2.png')}}" class="small-img"
-                                alt="School Image 2">
-                            <img src="{{('public/assets/images/about3.png')}}"
-                                class="small-img2" alt="School Image 3">
-                        </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="{{('public/assets/images/about1.png')}}" alt="School Image 1" class="about_img1">
                     </div>
-                    <div class="col-md-4 about-text">
-                        <h2>ABOUT OUR SCHOOL</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="{{('public/assets/images/about2.png')}}" class="about_us_school_css1" alt="School Image 2">
+                        <img src="{{('public/assets/images/about3.png')}}" class="about_us_school_css2" alt="School Image 3">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 about_css">
+                        <h1 class="about_us_h1"><b>ABOUT OUR SCHOOL</b></h1>
+                        <p class="about_us_p">Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and
@@ -31,7 +27,8 @@
                             when an unknown printer took a galley of type and
                             scrambled it to make a type specimen book. since the
                             1500s, when an unknown printer took a galley of type
-                            and scrambled it to make a type specimen book. </p>
+                            and scrambled it to make a type specimen book. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -108,7 +105,6 @@
                             <!-- Quotation marks at the bottom-right -->
                             <div class="quote-mark-bottom">
                                 <i class="fa-solid fa-quote-right"></i>
-                                   
                             </div>
                         </div>
 
@@ -116,53 +112,36 @@
                 </div>
             </section>
 
-            <section id="principal">
-                <div class="container my-5">
-                    <h2 class="text-center">PRINCIPAL DESK</h2>
-                    <!-- Dear Students Section -->
-                    <div class="row align-items-center mb-5">
-                        <div class="col-lg-8 position-relative">
-                            <div class="p-4 rounded principal-msg">
-                                <h2 class="mb-3 fw-bold text-black">Dear
-                                    Students,</h2>
-                                <p>
-                                    I welcome you to NIT'S Late Annasaheb Patil
-                                    Polytechnic, Nashik. Education taught to
-                                    teach us not only how to make a living but
-                                    also how to live, hence everyone in our
-                                    NIT'S Campus is trying to bring to full
-                                    blossoming the potential in every student.
-                                    It is very important to learn to develop
-                                    ourselves by imbibing certain qualities in
-                                    our life. They are, a steady mind that can
-                                    function without wavering in any situation,
-                                    a healthy body filled with a passion for
-                                    life, a flexible intellect that allows space
-                                    for new thoughts and ideas and a clear aim
-                                    which gives a proper direction. Always be
-                                    joyful and do all your work with zeal and
-                                    sincerity. If you love what you are doing,
-                                    you will be successful in life. At the
-                                    Nashik Institute of Technology, everyone is
-                                    committed to provide good technical
-                                    education along with imbibing social values.
-                                    So be the part of NIT Family.
-                                </p>
-                                <!-- Image inside the same container -->
-                                <img src="{{('public/assets/images/principal-icon.png')}}"
-                                    class="img-fluid prof-img"
-                                    alt="Prof Gopal A. Wadnere" />
-                                <div class="text-center mt-5 prof-details">
-                                    <h4
-                                        class="fw-bold text-uppercase text-orange">Prof.
-                                        Gopal A. Wadnere</h4>
-                                    <p class="text-orange">PH.D (MECHANICAl
-                                        PURSUING)<br> M.TECH., B.E., D.A.E.</p>
+
+            <section class="mt-5">
+                <h2 class="text-center principal_title_css">A PRINCIPAL DESK</h2>
+                <div class="principal_css mb-5">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 col-sm-6 about_principal_desk">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <b><h4 class="about_h3_css">Dear Students,</h4></b>
+                                    <p class="about_p_css">I welcome you to NIT'S Late Annasaheb Patil Polytechnic, Nashik. Education taught to teach us not only how to make a living but also how to live, hence everyone in our NIT'S Campus is trying to bring to full blossoming the potential in every student. It is very important to learn to develop ourselves by imbibing certain qualities in our life. They are, a steady mind that can function without wavering in any situation, a healthy body filled with a passion for life, a flexible intellect that allows space for new thoughts and ideas and a clear aim which gives a proper direction. Always be joyful and do all your work with zeal and sincerity. If you love what you are doing, you will be successful in life. At the Nashik Institute of Technology, everyone is committed to provide good technical education along with imbibing social values. So be the part of NIT Family.</p>
                                 </div>
+                                <div class="col-md-3"></div>
                             </div>
                         </div>
+                        <div class="col-md-3">
+                            <img src="{{('public/assets/images/principal-icon.png')}}" height="93%;" width="140%;" class="principal_img_css" alt="Prof Gopal A. Wadnere" />
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5 text-center">
+                            <h4 class="fw-bold text-uppercase text-orange">Prof.Gopal A. Wadnere</h4>
+                            <p class="text-orange">PH.D (MECHANICAl PURSUING)<br> M.TECH., B.E., D.A.E.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section id="principal">
+                <div class="container my-5">
                     <div class="teachers">
                         <!-- Our Teachers Section -->
                         <h3 class="text-center mb-4">OUR TEACHERS</h3>
@@ -205,8 +184,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
 @endsection

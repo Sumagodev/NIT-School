@@ -160,74 +160,27 @@ body {
   }
 }
 
+/* --------------------------  ABOUT US Section -------------------------- */
+
 .section-title {
   font-size: 28px;
   font-weight: 600;
-  margin-left: 160px;
   color: #0A64AA;
   text-transform: uppercase;
-}
-.scholar-img{
-  max-width: 600px;
-  margin-left: -80px;
 }
 
 .section-description {
   font-size: 20px;
   font-weight: 400;
-  margin-left: 160px;
   line-height: auto;
   letter-spacing: normal;
   color: #000000;
 }
 
-.btn-readmore {
-  background-color: #FE8E40;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: 500;
-  width: max-content;
-  margin-left: 160px;
-  transition: background-color 0.3s ease;
-}
-
-@media (max-width: 992px) {
-  .scholar-img {
-    max-width: 600px;
-    margin-left: 30px;
-}
-  .section-title{
-    font-size: 22px;
-    margin-left: 16px;
-}
-.section-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: auto;
-    letter-spacing: normal;
-    margin-left: 20px;
-    color: #000000;
-}
-
-.btn-readmore {
-  background-color: #FE8E40;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: 500;
-  width: max-content;
-  margin-left: 250px;
-  transition: background-color 0.3s ease;
-  }
-}
-
 @media (max-width: 576px) {
-  .section-title {
-    font-size: 22px;
-    margin-left: 16px;
+  .section-title{
+      font-size: 24px;
+      margin-left: 9px;
   }
   .section-description {
     font-size: 16px;
@@ -237,20 +190,9 @@ body {
     margin-left: 20px;
     color: #000000;
   }
-  .btn-readmore {
-    background-color: #FE8E40;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 500;
-    width: max-content;
-    margin-left: 115px;
-    transition: background-color 0.3s ease;
 }
 
-}
-
+/* --------------------------  ABOUT US Section -------------------------- */
 
 
 /* Desktop Version (visible on large screens) */
@@ -857,7 +799,122 @@ text-align: center;
  /*--------------------------------------------------------------
   # About us Page CSS START HERE
   --------------------------------------------------------------*/
- 
+
+  /* -------------------- ABOUT US  First Design ------------------------*/
+  .about_img1{
+    width: 95%;
+  }
+  @media (min-width:320px) and (max-width:430px) {
+    .about_img1{
+      width: 98%;
+      margin-left: 1%;
+      margin-top: -8%;
+    }
+  }
+  
+  @media (min-width:992px) and (max-width:1115px) {
+    .about_img1{
+      width: 98%;
+      margin-left: 1%;
+      margin-top: 2%;
+      height: 98%;
+    }
+  }
+
+  .about_us_school_css1{
+    margin-left: -11%;
+    margin-top: -3%;
+    width: 120%;
+    height: 45%;
+  }
+  @media (min-width:320px) and (max-width:430px) {
+    .about_us_school_css1{
+      margin-left: -3%;
+      margin-top: 0%;
+      width: 110%;
+      height: 60%;
+    }
+  }
+  
+  @media (min-width:992px) and (max-width:1115px) {
+    .about_us_school_css1{
+      margin-left: -11%;
+      margin-top: -5%;
+      width: 120%;
+      height: 57%;
+    }
+  }
+
+
+  .about_us_school_css2{
+    margin-left: -11%;
+    margin-top: -11%;
+    width: 120%;
+    height: 61%;
+  }
+  @media (min-width:320px) and (max-width:430px) {
+    .about_us_school_css2{
+      margin-left: -2%;
+      margin-top: -11%;
+      width: 110%;
+      height: 61%;
+    }
+  }
+  @media (min-width:992px) and (max-width:1115px) {
+    .about_us_school_css2 {
+      margin-left: -11%;
+      margin-top: -18%;
+      width: 120%;
+      height: 62%;
+  }
+  }
+
+  .about_css{
+    background-color:#0A64AA;
+    color:white;
+    padding-top:4%;
+    padding-bottom:3%;
+    padding-left:2%;
+    height:0%;
+    border-radius:10px 10px 10px 10px;
+  }
+  @media (min-width:320px) and (max-width:430px) {
+    .about_css{
+      background-color:#0A64AA;
+      color:white;
+      width:94%;
+      padding-top:4%;
+      padding-bottom:3%;
+      padding-left:6%;
+      height:0%;
+      border-radius:10px 10px 10px 10px;
+      margin-top: 15%;
+    }
+  }
+  
+  @media (min-width:768px) and (max-width:819px) {
+  .about_css {
+    width: 95%;
+    margin-top: -4%;
+    /* margin-left: 3%; */
+  }
+  }
+  @media (min-width:800px) and (max-width:992px) {
+    .about_css {
+      width: 95%;
+      margin-left: 3%;
+      margin-top: -3%;
+    }
+    }
+
+    .about_us_h1{
+      font-weight: 600;
+    }
+    .about_us_p{
+      font-weight: 500;
+    }
+  /* -------------------- ABOUT US  First Design ------------------------*/
+
 /* Welcome Section */
 .about-container {
   height: 100%;
@@ -1272,7 +1329,39 @@ text-align: center;
 }
 
 
-
+/* ------------- Principal Desk ----------------------- */
+.principal_title_css{
+  font-size: 36px;
+  font-weight: 700;
+  color: #0A64AA;
+}
+.principal_css{
+  margin-left: 6%;
+}
+.about_principal_desk{
+  background-color:#E3EEF5;
+  position: absolute;
+  border-radius: 7px;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+.about_h3_css{
+  font-weight: 600;
+  margin-left:2%;
+}
+.about_p_css{
+  font-weight: 400;
+}
+.principal_img_css{
+  position: relative;
+  left: 260%;
+  top: 2%;
+}
+.text-orange {
+  color: #FE8E40; /* Orange color */
+}
+/* ------------- Principal Desk ----------------------- */
 
 
 /* Dear Students Section */
@@ -2160,7 +2249,8 @@ h2 {
     display: flex;
     align-items: center;
     position: relative;
-    height: 90px;
+    height: 85px;
+    width: 17rem;
   }
   
   .feature-icon {
@@ -2203,11 +2293,22 @@ h2 {
     margin-bottom: 30px;
   }
 
+  @media (min-width:374px) and (max-width:430px) {
+    .feature-item {
+      width: auto;
+  }
+  }
+
+  @media (min-width: 768px) and (max-width:1024px) {
+    .feature-item {
+      width: auto;
+  }
+  }
+
   
   
   /* Responsive Design for smaller screens */
-  @media (max-width: 992px) {
-    /* Tablet view */
+  /* @media (max-width: 992px) {
     .facilities-heading {
       font-size: 2rem; 
       left: 30%; 
@@ -2244,11 +2345,10 @@ h2 {
       margin-left: 100px;
       text-align: center;
   }
-    }
+    } */
     
   
-  @media (max-width: 576px) {
-    /* Mobile view */
+  /* @media (max-width: 576px) {
     .facilities-heading {
       font-size: 1.2rem; 
       left: 28%; 
@@ -2279,7 +2379,7 @@ h2 {
       padding: 10px 15px;
       margin-left: 35px;
     }
-  }
+  } */
   
   
 
@@ -2319,22 +2419,22 @@ h2 {
 
 /* Form Section */
 .form-container {
-    background-color: #E3EEF5;
-    border-radius: 18px;
-    padding: 30px;
-    margin-left: -24px;
-    margin-bottom: 45px;
-    height: 450px; 
-    width: 100%;
+  background-color: #E3EEF5;
+  border-radius: 18px;
+  padding: 30px;
+  margin-left: -23px;
+  margin-bottom: 35%;
+  height: 345px;
+  width: 100%;
 }
 
 .form-header {
-    background-color: #0A64AA;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    margin-left: -25px;
-    margin-top: -25px;
-    width: 109%;
+  background-color: #0A64AA;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: -22px;
+  margin-top: -24px;
+  width: 109%;
 }
 
 .btn-orange {
@@ -2625,6 +2725,10 @@ p {
   }
 }
 
+.mobile_css{
+  color:white !important;
+  text-decoration:none;
+}
 /* Cards styling */
 .info-card {
   background-color: #FFE6D4;
@@ -2675,11 +2779,11 @@ p {
 }
 
 .left-image {
-  width: 100%;
+  width: 125%;
   height: auto;
   margin-bottom: 20px;
+  margin-left: -4%;
   object-fit: contain;
- 
 }
 
 /* Media Queries for Responsiveness */
@@ -2692,19 +2796,19 @@ p {
   }
 
   .parents-container {
-    margin-left: 20px; 
+    margin-left: 20px; /* Adjust margin for smaller screens */
   }
 
   .parents-card {
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /* Make cards wrap to the next line */
   }
 
   .col-md-12.welcome-img.position-relative img {
-    width: 100%; 
+    width: 100%; /* Ensure full width of image on tablet */
   }
 
   .visit-heading {
-    font-size: 24px; 
+    font-size: 24px; /* Smaller font for heading */
   }
 }
 
@@ -2723,11 +2827,11 @@ p {
 
   .parents-container {
     margin-left: 10px;
-    width: 100%; 
+    width: 100%; /* Full width on mobile */
   }
 
   .col-md-12.col-lg-4 img {
-    width: 100%; 
+    width: 100%; /* Ensure image takes full width */
     margin-left: -10px;
   }
 
@@ -2738,7 +2842,7 @@ p {
   }
 
   .card-body h2 {
-    font-size: 20px; 
+    font-size: 20px; /* Adjust font size */
     margin-left: 70px;
   }
 
@@ -2753,7 +2857,7 @@ p {
 }
 
   .left-image {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 15px;
   }
 

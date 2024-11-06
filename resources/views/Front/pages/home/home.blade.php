@@ -6,11 +6,10 @@
 <section class="about-school py-5">
             <div class="container">
                 <div class="row align-items-center">
-
                     <!-- Left Image Section -->
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-4 col-md-12 text-center">
                         <img src="{{ ('public/assets/images/scholar.png')}}"
-                            alt="Intellectual Growth" class="img-fluid scholar-img">
+                            alt="Intellectual Growth" class="img-fluid">
                     </div>
 
                     <!-- Right Text Section -->
@@ -19,7 +18,7 @@
                         <p class="section-description">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                         </p>
-                        <a href="{{ route('/aboutpage') }}" class="btn-readmore">Read More &rarr;</a>
+                        <a href="./about-us.html" class="btn-custom">Read More &rarr;</a>
                     </div>
 
                 </div>

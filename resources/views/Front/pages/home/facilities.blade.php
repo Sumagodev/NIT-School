@@ -1,28 +1,30 @@
 @extends('Front.layout.master')
 @section('content')
-<div class="container offer-section">
+
+
+<div class="container-fluid offer-section">
             <h2 class="text-center">WHAT WE OFFER</h2>
             <!-- Bootstrap row to keep image and feature list side by side -->
             <div class="row align-items-center">
                 <!-- Image Section -->
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12 col-sm-6">
                     <img src="{{('public/assets/images/facilities2.png')}}" alt="facilities-img"
                         class="img-fluid  facility-img align-items-start">
                 </div>
 
                 <!-- Features Section -->
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12 col-sm-6">
                     <div class="row">
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/transport.png')}}"
                                         alt="Transport">
                                 </div>
-                                <div class="feature-text ">Transport</div>
+                                <div class="feature-text">Transport</div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/subject.png')}}"
@@ -35,7 +37,7 @@
                         <!-- Add margin between rows -->
                         <div class="w-100"></div>
 
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/meal.png')}}"
@@ -44,7 +46,7 @@
                                 <div class="feature-text">Meals</div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/playground.png')}}"
@@ -57,17 +59,17 @@
                         <!-- Add margin between rows -->
                         <div class="w-100"></div>
 
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/laboratory.png')}}"
                                         alt="Laboratories">
                                 </div>
-                                <div class="feature-text">Well
+                                <div class="feature-text text-css">Well
                                     Equipped<br>Laboratories</div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 mb-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4 mb-4">
                             <div class="feature-item">
                                 <div class="feature-icon">
                                     <img src="{{('public/assets/images/library.png')}}"
@@ -81,5 +83,4 @@
                 </div>
             </div>
         </div>
-
         @endsection

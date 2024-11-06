@@ -9,9 +9,11 @@
                     </div>
                     <!-- Middle Section: Contact Details -->
                     <div class="col-md-4 contact-details">
-                        <p><i class="bi bi-telephone-fill"></i> 95525251058</p>
-                        <p><i class="bi bi-envelope-fill"></i>
-                            principalnashikse@gmail.com</p>
+                        <p><a href="tel:+91 95525251058" class="mobile_css text-muted me-4"
+                        ><i class="bi bi-telephone-fill"></i> 95525251058</a></p>
+                        <p><a href="mailto:principalnashikse@gmail.com" class="mobile_css text-muted me-0"
+                        ><i class="bi bi-envelope-fill"></i>
+                            principalnashikse@gmail.com</a></p>
                         <p><i class="bi bi-geo-alt-fill"></i> SURVEY NO. 156,
                             OPP. NIT, LATE ANNASAHEB POLYTECHNIC COLLEGE,
                             CANAL ROAD, BEHIND HYDRAULIC DIVISION, DINDORI ROAD,
